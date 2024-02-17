@@ -1,4 +1,4 @@
-export default function mega(qtd = 6, numeros = []) {
+export function mega(qtd, numeros = []) {
   if (qtd < 6 || qtd > 60)
     throw "Quantidade inválida"
 
