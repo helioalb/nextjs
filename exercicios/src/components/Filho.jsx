@@ -1,8 +1,8 @@
-export default function Filho(props) {
+export default function Filho({name, lastname}) {
   return (
     <div>
-      <h1>{props.name}</h1>
-      <h2>{props.lastname}</h2>
+      <h1>{name}</h1>
+      <h2>{lastname}</h2>
     </div>
   )
 }

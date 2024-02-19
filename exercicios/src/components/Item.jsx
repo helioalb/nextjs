@@ -1,5 +1,5 @@
-export default function Item(props) {
+export default function Item({content}) {
   return (
-    <li>{props.content}</li>
+    <li>{content}</li>
   )
 }

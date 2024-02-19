@@ -1,3 +1,3 @@
-export default function ContadorDisplay(props) {
-  return <span>Valor: {props.counter}</span>
+export default function ContadorDisplay({counter}) {
+  return <span>Valor: {counter}</span>
 }

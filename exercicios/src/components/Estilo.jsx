@@ -1,7 +1,7 @@
-export default function Estilo(props) {
+export default function Estilo({numero}) {
   return (
     <div>
-      <h1 style={{backgroundColor: props.numero >= 0 ? '#2D2' : '#D22'}}>
+      <h1 style={{backgroundColor: numero >= 0 ? '#2D2' : '#D22'}}>
         Texto
       </h1>
     </div>

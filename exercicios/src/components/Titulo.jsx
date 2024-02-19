@@ -1,14 +1,14 @@
-export default function Titulo(props) {
-  return props.pequeno ?
+export default function Titulo({pequeno, principal, secundario}) {
+  return pequeno ?
   (
     <>
-      <p>{props.principal}</p>
-      <p>{props.secundario}</p>
+      <p>{principal}</p>
+      <p>{secundario}</p>
     </>
   ) : (
     <>
-      <h1>{props.principal}</h1>
-      <h2>{props.secundario}</h2>
+      <h1>{principal}</h1>
+      <h2>{secundario}</h2>
     </>
   )
 }
